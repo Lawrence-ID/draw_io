@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.8">
   <diagram name="第 1 页" id="CqrKkKC8brbc6VteP-Dn">
-    <mxGraphModel dx="1420" dy="1121" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1183" dy="1001" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,17 +123,17 @@
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-151" value="1st block&lt;div&gt;ctrl signal&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="411" y="-73" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-152" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=15;" edge="1" parent="1">
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-152" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=15;" edge="1" parent="1" source="8zQ9RlupG1ut3UEaNSkb-410">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="572" y="144" as="sourcePoint" />
             <mxPoint x="576.5" y="-227" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-153" value="270MHz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="640.5" y="-212" width="83.5" height="30" as="geometry" />
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-153" value="266MHz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="646.75" y="-192" width="83.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-154" value="250MHz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="456" y="-212" width="60" height="30" as="geometry" />
+          <mxGeometry x="424" y="-192" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-155" value="这是译码器顶层的框架图，利用xdma接口来连接pcie总线与译码器。首先将pcie总线利用xdma IP转化为axi总线，并连接到bram_ctrl，用于控制译码器的数据输入与输出。&lt;div&gt;先来看控制流，AXI总线的宽度为256bit，我们规定第一个256bit包含了控制信息，其余的256bit都是数据。由于一开始设计时译码器的频率定为200MHz，而AXI总线传来的时钟只有100MHz和250MHz可选，所以需要做控制信号的多比特跨时钟域处理，利用DMUX实现。&lt;/div&gt;&lt;div&gt;控制信号传输完毕后，译码器端就知道了什么时候译码数据能够全部写入BRAM，译码器的控制模块会定时从BRAM_TX中读取数据进行译码，译码结束后将数据写入BRAM_RX。当一次译码结束时，会将结束信息包装为第一个数据块写入BRAM_RX，PC端可以轮询读取BRAM_RX的第一个数据块，来确定是否计算完成。若计算完成后，就可以读取译码结果。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1492" y="-101" width="271" height="282" as="geometry" />
@@ -152,13 +152,13 @@
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-159" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="322" y="309" as="sourcePoint" />
-            <mxPoint x="731" y="167" as="targetPoint" />
+            <mxPoint x="354" y="244" as="sourcePoint" />
+            <mxPoint x="731" y="181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-160" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1023" y="288" as="sourcePoint" />
+            <mxPoint x="1015" y="247" as="sourcePoint" />
             <mxPoint x="917" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -693,6 +693,18 @@
             <mxPoint x="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-407" value="PC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="76" y="-170" width="120" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-411" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=15;" edge="1" parent="1" target="8zQ9RlupG1ut3UEaNSkb-410">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572" y="144" as="sourcePoint" />
+            <mxPoint x="576.5" y="-227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-410" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="533" y="-226" width="93" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-126" value="Simple Dual-port BRAM_TX/FIFO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="510.5" y="-18" width="120" height="60" as="geometry" />
         </mxCell>
@@ -704,9 +716,6 @@
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-141" value="Simple Dual-port&lt;div&gt;BRAM_RX/FIFO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="510.5" y="55" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-407" value="PC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="76" y="-170" width="120" height="289" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
