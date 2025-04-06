@@ -138,8 +138,8 @@
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-156" value="XDMA&lt;div&gt;Wrapper&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="-170" width="120" height="289" as="geometry" />
         </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-157" value="pcie" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="205.5" y="-54" width="60" height="30" as="geometry" />
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-157" value="PCIe&lt;div&gt;Bus&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-40.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-158" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
