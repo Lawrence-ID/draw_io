@@ -41,7 +41,7 @@
             <mxPoint x="-1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-133" value="LDPCDecoderTop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-133" value="LDPCDecoderTop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="747.5" y="-158" width="191" height="268" as="geometry" />
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-134" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fontSize=15;" edge="1" parent="1">
@@ -135,7 +135,7 @@
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-155" value="这是译码器顶层的框架图，利用xdma接口来连接pcie总线与译码器。首先将pcie总线利用xdma IP转化为axi总线，并连接到bram_ctrl，用于控制译码器的数据输入与输出。&lt;div&gt;先来看控制流，AXI总线的宽度为256bit，我们规定第一个256bit包含了控制信息，其余的256bit都是数据。由于一开始设计时译码器的频率定为200MHz，而AXI总线传来的时钟只有100MHz和250MHz可选，所以需要做控制信号的多比特跨时钟域处理，利用DMUX实现。&lt;/div&gt;&lt;div&gt;控制信号传输完毕后，译码器端就知道了什么时候译码数据能够全部写入BRAM，译码器的控制模块会定时从BRAM_TX中读取数据进行译码，译码结束后将数据写入BRAM_RX。当一次译码结束时，会将结束信息包装为第一个数据块写入BRAM_RX，PC端可以轮询读取BRAM_RX的第一个数据块，来确定是否计算完成。若计算完成后，就可以读取译码结果。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1492" y="-101" width="271" height="282" as="geometry" />
         </mxCell>
-        <mxCell id="8zQ9RlupG1ut3UEaNSkb-156" value="XDMA&lt;div&gt;Wrapper&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="8zQ9RlupG1ut3UEaNSkb-156" value="XDMA&lt;div&gt;Wrapper&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="-170" width="120" height="289" as="geometry" />
         </mxCell>
         <mxCell id="8zQ9RlupG1ut3UEaNSkb-157" value="PCIe&lt;div&gt;Bus&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
