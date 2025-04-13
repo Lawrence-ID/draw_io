@@ -2250,6 +2250,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="KZ2AhMozPy1RTq5aePji-431" value="1st" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="5375" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2AhMozPy1RTq5aePji-432" value="2nd" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="5520" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2AhMozPy1RTq5aePji-433" value="3rd" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="5665" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ2AhMozPy1RTq5aePji-434" value="4th" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="5810" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
