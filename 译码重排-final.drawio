@@ -3156,7 +3156,7 @@
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-268" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=26;fontStyle=1" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-275">
           <mxGeometry width="129" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivSUYMtPpWBatPl7b3UJ-269" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-275">
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-269" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=none;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-275">
           <mxGeometry x="72" width="56.11" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-270" value="&lt;span style=&quot;font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;20*6&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-275">
@@ -3165,20 +3165,20 @@
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-274" value="" style="line;strokeWidth=2;direction=south;html=1;dashed=1;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-275">
           <mxGeometry x="68" y="1" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivSUYMtPpWBatPl7b3UJ-276" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2373" y="6854" width="129" height="61" as="geometry" />
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-276" value="" style="group;strokeColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2373" y="6854" width="130.11" height="61" as="geometry" />
         </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-277" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=26;fontStyle=1" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
           <mxGeometry width="129" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ivSUYMtPpWBatPl7b3UJ-278" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
-          <mxGeometry x="72" width="56.11" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-280" value="" style="line;strokeWidth=2;direction=south;html=1;dashed=1;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
           <mxGeometry x="68" y="1" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-279" value="&lt;span style=&quot;font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;20*6&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
           <mxGeometry x="7" y="9" width="62" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-278" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=none;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
+          <mxGeometry x="73" width="56.11" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
