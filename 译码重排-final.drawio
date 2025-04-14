@@ -2494,6 +2494,11 @@
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-19" value="32*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393D;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="2315" y="6491" width="62.11" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-283" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ivSUYMtPpWBatPl7b3UJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2591" y="6702.058823529412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="2311" y="6672" width="230" height="60" as="geometry" />
         </mxCell>
@@ -3179,6 +3184,24 @@
         </mxCell>
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-278" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=none;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
           <mxGeometry x="73" width="56.11" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-286" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="6886.058823529412" as="targetPoint" />
+            <mxPoint x="2540" y="6886" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-287" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2595" y="6521.058823529412" as="targetPoint" />
+            <mxPoint x="2545" y="6521" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-288" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2595" y="6339.058823529412" as="targetPoint" />
+            <mxPoint x="2545" y="6339" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
