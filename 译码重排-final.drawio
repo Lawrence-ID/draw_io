@@ -3185,15 +3185,9 @@
         <mxCell id="ivSUYMtPpWBatPl7b3UJ-278" value="12*6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=none;fontSize=25;" vertex="1" parent="ivSUYMtPpWBatPl7b3UJ-276">
           <mxGeometry x="73" width="56.11" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="ivSUYMtPpWBatPl7b3UJ-286" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-287" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2590" y="6886.058823529412" as="targetPoint" />
-            <mxPoint x="2540" y="6886" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ivSUYMtPpWBatPl7b3UJ-287" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2595" y="6521.058823529412" as="targetPoint" />
+            <mxPoint x="2598" y="6521" as="targetPoint" />
             <mxPoint x="2545" y="6521" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -3201,6 +3195,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2595" y="6339.058823529412" as="targetPoint" />
             <mxPoint x="2545" y="6339" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivSUYMtPpWBatPl7b3UJ-289" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2600" y="6885" as="targetPoint" />
+            <mxPoint x="2541" y="6885" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
